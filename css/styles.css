@@ -1,0 +1,210 @@
+:root {
+  --basic-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-text-color: #ffffff;
+  --black-text-color: #000000;
+  --accent-color: #2196f3;
+  --basic-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --accent-bg-color: #2196f3;
+  --header-footer-bg-color: #2f303a;
+  --active-accent-bg-color: #188ce8;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+/* body */
+img {
+  display: block;
+}
+.page {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--basic-bg-color);
+  color: var(--basic-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  font-family: inherit;
+}
+
+/* header */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-header {
+  color: var(--black-text-color);
+}
+/* link */
+
+.list-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-site .current,
+.nav-site .link:hover,
+.nav-site .link:focus {
+  color: var(--accent-color);
+}
+.contacts-header .link {
+  color: var(--basic-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+  color: var(--accent-color);
+}
+/* main */
+
+/* hat */
+.hat-site,
+.footer {
+  background-color: var(--header-footer-bg-color);
+}
+.hat-site .title {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hat-site .button {
+  background-color: var(--accent-bg-color);
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.hat-site .button:hover,
+.hat-site .button:focus {
+  background-color: var(--active-accent-bg-color);
+}
+
+/* features */
+.section {
+  background-color: var(--basic-bg-color);
+}
+.section .title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-features-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.our-features-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* our team */
+
+.our-team {
+  background-color: var(--secondary-bg-color);
+}
+.name {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.list-team {
+  background-color: var(--basic-bg-color);
+}
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* portfolio */
+
+.menu .button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.menu .button:hover,
+.menu .button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-bg-color);
+}
+.work-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* footer */
+
+.logo-footer {
+  color: var(--white-text-color);
+}
+.address {
+  font-style: normal;
+}
+.link-address {
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.link-address:hover,
+.link-address:focus {
+  color: var(--accent-color);
+}
+.link-contacts {
+  color: var(--footer-contacts-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--accent-color);
+}
