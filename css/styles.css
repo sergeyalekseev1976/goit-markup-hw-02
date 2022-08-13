@@ -16,6 +16,7 @@ img {
   display: block;
 }
 .page {
+  font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   background-color: var(--basic-bg-color);
@@ -59,7 +60,6 @@ img {
 .list-nav .link {
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -71,7 +71,6 @@ img {
 .contacts-header .link {
   color: var(--basic-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -126,13 +125,11 @@ img {
 .our-features-title {
   color: var(--secondary-text-color);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .our-features-text {
-  font-size: 14px;
   line-height: 1.71;
 }
 /* our team */
@@ -191,7 +188,6 @@ img {
 }
 .link-address {
   color: var(--white-text-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -201,7 +197,6 @@ img {
 }
 .link-contacts {
   color: var(--footer-contacts-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 .link-contacts:hover,
